@@ -117,15 +117,15 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/mybotsupport"),
+                            InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/martinbot12")
                         ],
                         [
                             InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/")
                         ]]))
             else :
                 await cmd.reply_photo(photo=lazy_pic,
@@ -133,15 +133,15 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/mybotsupport"),
+                            InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/martinbot12")
                         ],
                         [
                             InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/")
                         ]]))
             
         else:
@@ -211,7 +211,7 @@ async def Lazy_start():
             try:
                 forwarded_msg = await message.forward(Config.DB_CHANNEL)
                 file_er_id = str(forwarded_msg.id)
-                share_link = f"https://t.me/{Config.BOT_USERNAME}?start=LazyDeveloperr_{str_to_b64(file_er_id)}"
+                share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=Rolex_{str_to_b64(file_er_id)}"
                 CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.id,
                                                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                                 "GΞΓ SHAЯeABLΞ LIИҜ", url=share_link)]]))
@@ -377,7 +377,7 @@ async def Lazy_start():
                     [
                         [
                             InlineKeyboardButton("⚡️SФUЯCΞ CФDΞS ФF ß⊕Γ",
-                                                url="https://github.com/LazyDeveloperr/MissRozy")
+                                                url="https://t.me/meera12_bot")
                         ],
                         [
                             InlineKeyboardButton("GФ HФMΞ", callback_data="gotohome"),
@@ -395,7 +395,7 @@ async def Lazy_start():
                     [
                         [
                             InlineKeyboardButton("⚡️SФUЯCΞ CФDΞS ФF ß⊕Γ",
-                                                url="https://github.com/LazyDeveloperr/MissRozy")
+                                                url="https://t.me/meera12_bot")
                         ],
                         [
                             InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
@@ -413,15 +413,15 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/mybotsupport"),
+                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/martinbot12")
                         ],
                         [
                             InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be")
                         ]
                     ]
                 )
@@ -433,15 +433,15 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/mybotsupport"),
+                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/martinbot12")
                         ],
                         [
                             InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/RtjyE")
                         ]
                     ]
                 )
@@ -457,7 +457,7 @@ async def Lazy_start():
                     user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                     if user.status == "kicked":
                         await cmd.message.edit(
-                            text="ꜱᴏʀʀʏ ꜱɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜꜱᴇ ᴍᴇ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/LazyDeveloperSupport).",
+                            text="ꜱᴏʀʀʏ ꜱɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜꜱᴇ ᴍᴇ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/mybotsupport).",
                             disable_web_page_preview=True
                         )
                         return
@@ -480,7 +480,7 @@ async def Lazy_start():
                     return
                 except Exception:
                     await cmd.message.edit(
-                        text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/LazyDeveloperSupport).",
+                        text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/mybotsupport).",
                         disable_web_page_preview=True
                     )
                     return
@@ -491,15 +491,15 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/mybotsupport"),
+                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/martinbot12")
                         ],
                         [
                             InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/RtE")
                         ]
                     ]
                 )
@@ -511,15 +511,15 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/mybotsupport"),
+                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/martinbot12")
                         ],
                         [
                             InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/wE")
                         ]
                     ]
                 )
