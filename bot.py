@@ -125,7 +125,7 @@ async def Lazy_start():
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/how_to_openlinkz/5")
                         ]]))
             else :
                 await cmd.reply_photo(photo=lazy_pic,
@@ -141,7 +141,7 @@ async def Lazy_start():
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/how_to_openlinkz/5")
                         ]]))
             
         else:
@@ -183,7 +183,7 @@ async def Lazy_start():
                     return
 
             if message.from_user.id in Config.BANNED_USERS:
-                await message.reply_text("ꜱᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ!\n\nContact [Support Group](https://t.me/LazyDeveloperSupport)",
+                await message.reply_text("ꜱᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ!\n\nContact [Support Group](https://t.me/mybotsupport)",
                                         disable_web_page_preview=True)
                 return
 
@@ -211,7 +211,7 @@ async def Lazy_start():
             try:
                 forwarded_msg = await message.forward(Config.DB_CHANNEL)
                 file_er_id = str(forwarded_msg.id)
-                share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=Rolex_{str_to_b64(file_er_id)}"
+                share_link = f"https://t.me/{Config.BOT_USERNAME}?start=Rolex_{str_to_b64(file_er_id)}"
                 CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.id,
                                                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                                 "GΞΓ SHAЯeABLΞ LIИҜ", url=share_link)]]))
@@ -421,7 +421,7 @@ async def Lazy_start():
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/how_to_openlinkz/5")
                         ]
                     ]
                 )
@@ -441,7 +441,7 @@ async def Lazy_start():
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/RtjyE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/how_to_openlinkz/5")
                         ]
                     ]
                 )
@@ -499,7 +499,7 @@ async def Lazy_start():
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/RtE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/how_to_openlinkz/5")
                         ]
                     ]
                 )
@@ -519,7 +519,7 @@ async def Lazy_start():
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/wE")
+                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/how_to_openlinkz/5")
                         ]
                     ]
                 )
